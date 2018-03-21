@@ -47,7 +47,7 @@ par(mfcol = c(2,2))
 
 
 # Plot graph of global active power data vs date/time
-plot(x_value, y4_value, type = "l", xlab = "", ylab = "Global Active Power(kilowatts)")
+plot(x_value, y4_value, type = "l", xlab = "", ylab = "Global Active Power")
 
 
 #Plot 2nd graph in column 1 
