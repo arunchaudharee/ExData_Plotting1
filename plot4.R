@@ -45,7 +45,7 @@ png(filename = "plot4.png", width=480, height=480)
 # Let us Set graphing parameters so that 4 graphs are drawn by column
 par(mfcol = c(2,2))
 
-
+# Plot 1st graph in column 1
 # Plot graph of global active power data vs date/time
 plot(x_value, y4_value, type = "l", xlab = "", ylab = "Global Active Power")
 
